@@ -70,7 +70,7 @@ Use Docker Compose to run Elasticsearch, Logstash, and Kibana as containers.
      }
    }
    filter {
-     grok {
+     test {
        match => { "message" => "%{TIMESTAMP_ISO8601:timestamp} %{LOGLEVEL:level} %{GREEDYDATA:message}" }
      }
    }
