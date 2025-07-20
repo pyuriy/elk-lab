@@ -83,7 +83,7 @@ Use Docker Compose to run Elasticsearch, Logstash, and Kibana as containers.
    }
    ```
 
-   This configuration reads logs from `/tmp/app.log`, parses them using a grok filter, and sends them to Elasticsearch.
+   This configuration reads logs from `/tmp/app.log`, parses them using a test filter, and sends them to Elasticsearch.
 
 3. Start the ELK Stack:
 
